@@ -67,7 +67,7 @@ export function SimpleRegistrationForm() {
       <div className="flex flex-wrap justify-center mt-10 bg-blue-100 items-center p-4 w-auto max-w-md m-auto rounded-3xl">
         <input type="file" onChange={(e) => setImg(e.target.files[0])}></input>{" "}
         <button
-          className="basis-1/4 p-3 text-center rounded-lg bg-orange-100 text-black"
+          className="p-3 text-center rounded-lg bg-orange-100 text-black"
           onClick={handleSubmit}
         >
           Upload
