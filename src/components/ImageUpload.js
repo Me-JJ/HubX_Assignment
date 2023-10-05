@@ -61,9 +61,6 @@ export function SimpleRegistrationForm() {
   };
   return (
     <div>
-      <h1 className="container-md m-auto text-center text-3xl bg-blue-200 p-5 font-bold ">
-        Image_Cloud
-      </h1>
       <div className="flex flex-wrap justify-center mt-10 bg-blue-100 items-center p-4 w-auto max-w-md m-auto rounded-3xl">
         <input type="file" onChange={(e) => setImg(e.target.files[0])}></input>{" "}
         <button
